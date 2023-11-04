@@ -53,7 +53,7 @@ class Attendance:
 
 
         #title section
-        title_lb1 = Label(bg_img,text="Welcome to Attendance Pannel",font=("verdana",30,"bold"),bg="white",fg="navyblue")
+        title_lb1 = Label(bg_img,text="Attendance Pannel",font=("verdana",30,"bold"),bg="beige",fg="brown")
         title_lb1.place(x=0,y=0,width=1366,height=45)
 
         #========================Section Creating==================================
