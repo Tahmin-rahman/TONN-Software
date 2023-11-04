@@ -1,0 +1,7 @@
+dataset/
+__pycache__/
+data_img/
+.vscode/
+Still_detection.ipynb
+Webcam_detection.ipynb
+images/
