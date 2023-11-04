@@ -48,7 +48,7 @@ class Developer:
         std_b1 = Button(bg_img,image=self.std_img1,cursor="hand2")
         std_b1.place(x=250,y=200,width=180,height=180)
 
-        std_b1_1 = Button(bg_img,text="M.Mohsin",cursor="hand2",font=("tahoma",15,"bold"),bg="white",fg="navyblue")
+        std_b1_1 = Button(bg_img,text="Tahmin",cursor="hand2",font=("tahoma",15,"bold"),bg="white",fg="navyblue")
         std_b1_1.place(x=250,y=380,width=180,height=45)
 
         # Detect Face  button 2
@@ -59,7 +59,7 @@ class Developer:
         det_b1 = Button(bg_img,image=self.det_img1,cursor="hand2",)
         det_b1.place(x=480,y=200,width=180,height=180)
 
-        det_b1_1 = Button(bg_img,text="Faizan Tariq",cursor="hand2",font=("tahoma",15,"bold"),bg="white",fg="navyblue")
+        det_b1_1 = Button(bg_img,text="Thawfiq",cursor="hand2",font=("tahoma",15,"bold"),bg="white",fg="navyblue")
         det_b1_1.place(x=480,y=380,width=180,height=45)
 
          # Attendance System  button 3
@@ -70,7 +70,7 @@ class Developer:
         att_b1 = Button(bg_img,image=self.att_img1,cursor="hand2",)
         att_b1.place(x=710,y=200,width=180,height=180)
 
-        att_b1_1 = Button(bg_img,text="M.Waseem",cursor="hand2",font=("tahoma",15,"bold"),bg="white",fg="navyblue")
+        att_b1_1 = Button(bg_img,text="Omar",cursor="hand2",font=("tahoma",15,"bold"),bg="white",fg="navyblue")
         att_b1_1.place(x=710,y=380,width=180,height=45)
 
          # Help  Support  button 4
@@ -81,7 +81,7 @@ class Developer:
         hlp_b1 = Button(bg_img,image=self.hlp_img1,cursor="hand2",)
         hlp_b1.place(x=940,y=200,width=180,height=180)
 
-        hlp_b1_1 = Button(bg_img,text="Maria Khan",cursor="hand2",font=("tahoma",15,"bold"),bg="white",fg="navyblue")
+        hlp_b1_1 = Button(bg_img,text="Neha",cursor="hand2",font=("tahoma",15,"bold"),bg="white",fg="navyblue")
         hlp_b1_1.place(x=940,y=380,width=180,height=45)
 
 

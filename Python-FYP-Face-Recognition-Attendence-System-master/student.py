@@ -60,7 +60,7 @@ class Student:
 
 
         #title section
-        title_lb1 = Label(bg_img,text="Student Pannel",font=("verdana",30,"bold"),bg="beige",fg="brown")
+        title_lb1 = Label(bg_img,text="Student Panel",font=("verdana",30,"bold"),bg="beige",fg="brown")
         title_lb1.place(x=0,y=0,width=1366,height=45)
 
         # Creating Frame 

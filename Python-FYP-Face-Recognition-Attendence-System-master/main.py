@@ -37,7 +37,7 @@ class Face_Recognition_System:
 
 
         #title section
-        title_lb1 = Label(bg_img,text="TONN SOFTWARE",font=("verdana",30,"bold"),bg="white",fg="navyblue")
+        title_lb1 = Label(bg_img,text="TONN SOFTWARE",font=("verdana",30,"bold"),bg="beige",fg="brown")
         title_lb1.place(x=0,y=0,width=1366,height=45)
 
         # Create buttons below the section 
@@ -50,7 +50,7 @@ class Face_Recognition_System:
         std_b1 = Button(bg_img,command=self.student_pannels,image=self.std_img1,cursor="hand2")
         std_b1.place(x=250,y=100,width=180,height=180)
 
-        std_b1_1 = Button(bg_img,command=self.student_pannels,text="Student Pannel",cursor="hand2",font=("tahoma",15,"bold"),bg="white",fg="navyblue")
+        std_b1_1 = Button(bg_img,command=self.student_pannels,text="Student Panel",cursor="hand2",font=("tahoma",15,"bold"),bg="white",fg="navyblue")
         std_b1_1.place(x=250,y=280,width=180,height=45)
 
         # Detect Face  button 2
@@ -108,7 +108,7 @@ class Face_Recognition_System:
         pho_b1 = Button(bg_img,command=self.open_img,image=self.pho_img1,cursor="hand2",)
         pho_b1.place(x=480,y=330,width=180,height=180)
 
-        pho_b1_1 = Button(bg_img,command=self.open_img,text="QR-Codes",cursor="hand2",font=("tahoma",15,"bold"),bg="white",fg="navyblue")
+        pho_b1_1 = Button(bg_img,command=self.open_img,text="Detect",cursor="hand2",font=("tahoma",15,"bold"),bg="white",fg="navyblue")
         pho_b1_1.place(x=480,y=510,width=180,height=45)
 
         # Developers   button 7
@@ -119,7 +119,7 @@ class Face_Recognition_System:
         dev_b1 = Button(bg_img,command=self.developr,image=self.dev_img1,cursor="hand2",)
         dev_b1.place(x=710,y=330,width=180,height=180)
 
-        dev_b1_1 = Button(bg_img,command=self.developr,text="Developers",cursor="hand2",font=("tahoma",15,"bold"),bg="white",fg="navyblue")
+        dev_b1_1 = Button(bg_img,command=self.developr,text="Misc.",cursor="hand2",font=("tahoma",15,"bold"),bg="white",fg="navyblue")
         dev_b1_1.place(x=710,y=510,width=180,height=45)
 
         # exit   button 8
