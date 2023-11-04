@@ -89,7 +89,7 @@ class Login:
             messagebox.showinfo("Sussessfully","Welcome to Attendance Managment System Using Facial Recognition")
         else:
             # messagebox.showerror("Error","Please Check Username or Password !")
-            conn = mysql.connector.connect(username='root', password='localhost',host='localhost',database='face_recognition',port=3306)
+            conn = mysql.connector.connect(username='root', password='localhost',host='localhost',database='facial_recognition',port=3306)
             mycursor = conn.cursor()
             mycursor.execute("select * from regteach where email=%s and pwd=%s",(
                 self.txtuser.get(),
